@@ -10,9 +10,9 @@ var nomi = ["Gianfrancioschio", "Stefanello", "Marcolindo", "Silviarlotta", "Giu
 
 
 // funzione che crea nome + cognome 
-for (var i = 0; i <= 10; i++) {
+for (var i = 0; i < 10; i++) {
     var lista = random(nomi, cognomi);
-    console.log(lista)
+    console.log("Il " + [i+1] + "° invitato è l'illustrissimo/a " + lista)
 
 }
 
