@@ -18,7 +18,8 @@ for (var i = 0; i < 10; i++) {
 }
 
 
-
+// sarebbe stato meglio dividere la funzione che fa un math.random(min, max) e poi fare una funzione di generazione nomi utilizzando la funzione random. 
+// Questo perchè? Perchè così se all'interno del mio documento devo ri-utilizzare un math random mi bastera solo invocare la funzione e inserire un min e un max diversi. 
 function random(nomi, cognomi) {
     cognomi = cognomi[(Math.floor((Math.random() * cognomi.length)))];
     nomi= nomi[(Math.floor((Math.random() * nomi.length)))];
